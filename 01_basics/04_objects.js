@@ -42,9 +42,25 @@ const obj4 = {5:"e", 6:"f"}
 //console.log(tinderUser);
 //console.log(Object.keys(tinderUser));
 //console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+//console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('name'));
+//console.log(tinderUser.hasOwnProperty('name'));
+
+const course = {
+    courseName : "java script",
+    price : "9999",
+    courseconstractor : "Gaurav",
+}
+  
+console.log(course.price);
+
+//course.courseName
+//console.log(course.courseName);
 
 
+const {courseconstractor} = course
+console.log(courseconstractor);
+
+const {courseconstractor: instractor} = course  // destrecture 
+console.log(instractor)
 
