@@ -1,5 +1,0 @@
-function myName(){
-
-}
-
-myName{}
