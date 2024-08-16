@@ -24,11 +24,20 @@ function one() {
         // 
         console.log(username);
       }
-      console.log(website);
-      two()
-      
-      
+      // console.log(website);
+      // two()
+}
+//  one()
 
+
+if (true) {
+  const username = "gaurav"
+
+  if (username == "gaurav") {
+    const website = "yotube"
+    console.log(username + website);
+    
+  }
+  
 }
 
- one()
