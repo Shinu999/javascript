@@ -34,10 +34,24 @@ if (true) {
   const username = "gaurav"
 
   if (username == "gaurav") {
-    const website = "yotube"
-    console.log(username + website);
+    const website = " yotube"
+    // console.log(username + website);
     
   }
   
 }
+
+
+function addone(num1) {
+  return num1 + 1
+}
+// console.log(addone(5));
+
+const  addTwo = function (num2) {
+  return addTwo+2
+}
+
+addTwo(2)
+
+
 
