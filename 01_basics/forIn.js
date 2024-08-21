@@ -10,8 +10,8 @@ const myObject =  {
 
 // console.log(myObject);
 for (const key in myObject) {
-    console.log(key);
-    console.log(myObject[key]);
+    // console.log(key);
+    // console.log(myObject[key]);
     
     
     console.log(`${key} course is ${myObject[key]}`);
