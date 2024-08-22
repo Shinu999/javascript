@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function addList (langName){
+    const li = document.createElement("li")
+    //  console.log(li);
+     document.body.appendChild(li)
+     li.innerText="chai our code "
+    li.innerHTML= `${langName}`
+    document.querySelector('.language').appendChild(li)
+    }
+    addList("Python")
+    addList("C++")
+    addList("Java")
+
+
+    function List2 (langName) {
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector(".language").appendChild(li)
+        
+    }
+    List2("Ruby")
+     
+    // Edit 
+
+    const secondlist = document.querySelector("li:nth-child(2)")
+    console.log(secondlist);
+    const newli = document.createElement('li')
+    newli.textContent="Ram"
+    secondlist.replaceWith(newli)
+
+    // Edit 
+
+    const Firstlist = document.querySelector("li:first-child")
+    Firstlist.outerHTML='<li> Ram</li>'
+
+    //remove
+
+    const lastlist = document.querySelector('li:last-child')
+    lastlist.remove()
+
+
+    
+    
+
+
+
+
+</script>
+</html>
